@@ -2,13 +2,13 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build hello.c",
+            "label": "build task.c",
             "type": "shell",
             "command": "clang",
             "args": [
-                "hello.c",
+                "task.c",
                 "-o",
-                "hello",
+                "task",
                 "-Wall",
                 "-Wextra",
                 "-std=c11"
